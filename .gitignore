@@ -1,0 +1,9 @@
+# ignore everything in data
+data/*
+# except the folder itself
+!data/
+
+## i'd rather these not get pushed
+code/map_bears_on_map.py
+code/map_colored_bears_on_map.py
+code/map_colored_bears.py
