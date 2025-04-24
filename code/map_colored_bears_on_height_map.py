@@ -36,7 +36,8 @@ elev_plot = ax.imshow(
     masked_elev,
     extent=[lon_grid.min(), lon_grid.max(), lat_grid.min(), lat_grid.max()],
     origin="upper",
-    cmap="terrain",
+    cmap="gray",
+    # cmap="terrain",
     alpha=0.5
 )
 cbar = plt.colorbar(elev_plot, ax=ax, label="Elevation (m)")
